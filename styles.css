@@ -1,0 +1,68 @@
+@page{
+    size: A4;
+    margin: 20mm;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 210mm;
+    height: 297mm;
+    padding: 7mm;
+    font-family: Arial;
+}
+
+#leftDiv{
+    background-color: white;
+    padding-right: 15px;
+}
+
+#rightDiv{
+    width: 28%;
+    background-color: #ffd7b867;
+    padding: 20px;
+}
+
+h1, h2{
+    color: #5A454A;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+.jobTitle{
+    margin-top: 10px;
+}
+
+.jobTitle, .workCompany{
+    color: #D25E47;
+}
+
+.workCompany{
+    font-weight: bold;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.icon_container{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+#linkedin_contact{
+    word-break: break-word;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+}
+
+.exp_icon{
+    padding-right: 15px;
+}
