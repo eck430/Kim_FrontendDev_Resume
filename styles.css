@@ -71,6 +71,10 @@ p{
     padding-right: 10px;
 }
 
+#skills{
+    margin-bottom: 8px;
+}
+
 ul{
     margin: 0px;
     padding: 10px;
@@ -78,16 +82,26 @@ ul{
 
 .rightList{
     list-style: none;
-    padding: 0px;
+    padding: 0px 5px;
 }
 
-#lang{
-    padding-top: 22px;
+.rightList li{
+    padding: 0px 8px;
+}
+
+.sub{
+    padding-top: 10px;
     font-style: italic;
+    font-weight: 600;
 }
 
-#cert{
-    padding-top: 15px;
+#certTitle{
+    margin-bottom: 0px;
+}
+
+.cert li{
+    padding: 15px 0px 0px;
+
 }
 
 #major, #bs{
