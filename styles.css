@@ -47,7 +47,13 @@ p{
 
 .icon_container{
     display: flex;
+    flex-direction: row;
     padding-bottom: 5px;
+}
+
+.icon_container a{
+    color: black;
+    text-decoration: none;
 }
 
 .icon{
@@ -59,7 +65,6 @@ p{
 
 #linkedin_contact, #portfolio_contact{
     word-break: break-word;
-    
 }
 
 .experience{
